@@ -1,0 +1,77 @@
+:root {
+    --bg: black;
+    --text: antiquewhite;
+    --accent: white;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background: var(--bg);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Desktop Menu */
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: var(--text);
+    text-decoration: none;
+    padding: 8px 15px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background: var(--accent);
+    color: black;
+    border-radius: 5px;
+}
+
+
+.main-folder-img-para {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 10%;
+    gap: 50px;
+}
+
+.main-folder-text h4 { font-size: 4rem; margin: 0; }
+.main-folder-text p { font-size: 1.1rem; line-height: 1.6; max-width: 600px; }
+
+img {
+    width: 400px;
+    border-radius: 20px;
+}
+/* Popup Styling */
+.popup-overlay {
+    display: none; /* Pehle se hide rahega */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85); /* Dark transparent background */
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
