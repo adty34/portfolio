@@ -155,7 +155,13 @@ button:hover {
     display: flex;
     gap: 15px;
 }
-
+a{
+    text-decoration: none;
+    color: var(--text);
+}
+a:hover{
+    color: #989292;
+}
 @media (max-width: 780px){
     header{
         flex-direction: column;
