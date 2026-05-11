@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya k.</title>
+    <link rel="stylesheet" href="hire.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+     <link rel="icon" type="image/x-icon" href="pic-6.png">
+</head>
+<style>
+    
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+    background-color: #000000; /* Dark Black */
+    color: #ffffff; /* White Text */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header & Nav Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: all 0.3s ease; /* Smooth transition for hover */
+}
+
+/* Hover Effect: Text Black, Background White */
+a:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Main Content */
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.main-header-text p {
+    font-size: 1em;
+    max-width: 600px;
+    font-weight: 300;
+}
+
+.main-header-img img {
+    width: 250px;
+    border-radius: 20px; 
+}
+
+/* Footer & Icons */
+footer {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.resume a {
+    border: 1px solid #dfd5d5;
+}
+
+.soical-media-icons i {
+    font-size: 1.5rem;
+    /* color: #ffffff; */
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.soical-media-icons i:hover {
+    transform: scale(1.2);
+}
+@media (max-width: 780px){
+    .main-header{
+        /* background-color: #ffffff; */
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .main-header{
+        padding: auto;
+    }
+    header{
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+}
+</style>
+<body>
+      <header>
+            <div class="logo"><h4>Aditya Chaurasia.</h4></div>
+            <div class="nav-bar">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Project.html">Project</a></li>
+                        <li><a href="blogs.html">Blogs</a></li>
+                        <li><a href="about-page.html">About</a></li>
+                    </ul>
+                </nav>
+        </header>
+        <!-- this sectiom cantain for main foler like hero section -->
+
+            <main>
+                <div class="main-header">
+                     <div class="main-header-img">
+                        <img src="pic-1.png" alt="profile-img">
+                          </div>
+                    <div class="main-header-text">
+                        <p>"Hi, I'm Aditya K. Chaurasia, a Frontend Developer dedicated to helping small businesses grow through high-quality web design. I specialize in building visually stunning, responsive user interfaces at an affordable rate. To keep maintenance costs low for emerging businesses, I focus on high-impact UI layouts that provide a professional digital presence without unnecessary complexity. My goal is to empower organizations to scale faster and succeed in the digital world." </p>
+                    </div>
+                </div>
+            </main>
+        <footer>
+            <div class="resume">
+                <a href="aditya-resume.pdf.pdf">Download Resume</a>
+            </div>
+             <div class="soical-media-icons">
+                    <a href="https://discord.gg/4vAzSctF" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-discord"></i>
+                    </a>
+
+                    <a href="https://github.com/adty34" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+        </footer>
+</body>
+</html>
